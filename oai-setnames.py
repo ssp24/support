@@ -26,30 +26,10 @@ st.header('Übersicht OAI-Sets der DNB')
 
 st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Verfügung stehenden Sets: ") 
 
-mychoice = st.selectbox("Auswahl:", main)
+mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
 
 
-choice = st.selectbox(
-            "Folgende übergeordnete OAI-Sets stehen zur Verfügung:", 
-            ('Deutsche Nationalbibliografie (DNB)', 
-             'Deutsche Nationalbibliografie (DNB) - APPR',
-             'Deutsche Nationalbibliografie: Monografien und Periodika des Verlagsbuchhandels',
-             'Deutsche Nationalbibliografie: Monografien und Periodika außerhalb des Verlagsbuchhandels',
-             'Deutsche Nationalbibliografie: Karten', 
-             'Deutsche Nationalbibliografie: Hochschulschriften',
-             'Deutsche Nationalbibliografie: Musikalien',
-             'Deutsche Nationalbibliografie: Online-Publikationen',
-             'Deutsche Nationalbibliografie: Musiktonträger',
-             'Deutsche Nationalbibliografie: Kataloganreicherung (TOC-Service)',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung)',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Publikationen des Verlagsbuchhandels',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Publikationen ausserhalb des Verlagsbuchhandels',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Karten',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Hochschulschriften',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Musikalien',
-             'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Online-Publikationen',
-             'Deutsche Nationalbibliografie: Monografien und Periodika des Verlagsbuchhandels - APPR',          
-            ))
+
 
 st.write("Stand der Daten: 22.03.2022")
 
