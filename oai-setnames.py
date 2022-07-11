@@ -34,8 +34,8 @@ mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:
 
 st.dataframe(data)
 
-selection = data["Main"].loc[data["Main"] == mychoice]
 if mycoice: 
+          selection = data["Main"].loc[data["Main"] == mychoice]
           st.dataframe(selection)
 else:
           st.write("Es wurde noch keine Auswahl getätigt.")
