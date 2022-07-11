@@ -15,7 +15,6 @@ main = data["Main"].drop_duplicates()
 
           
 
-
 dnbcolor = ['#FEFEFE', '#2499ff', '#f33930', '#b6c73f', '#ffd44d',
             '#3cb8f6', '#f9852e', '#e3d98f', '#000000', '#01be00']
 testcolor = ['#ff6900', '#fcb900', '#7bdcb5', '#00d084', '#8ed1fc',
@@ -31,7 +30,7 @@ test = st.selectbox(
           "Folgende übergeordnete OAI-Sets stehen zur Verfügung:", 
           (main))
 
-st.write('You selected:', test)
+#st.write('You selected:', test)
 
 #st.dataframe(data)
 
@@ -42,7 +41,7 @@ else:
           st.write("Es wurde noch keine Auswahl getätigt.")
 
 
-st.write("Stand der Daten: 22.03.2022")
+st.write("Stand der Daten: 11.07.2022")
 
 
 
