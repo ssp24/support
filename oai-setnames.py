@@ -26,7 +26,7 @@ st.header('Übersicht OAI-Sets der DNB')
 
 st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Verfügung stehenden Sets: ") 
 
-mychoice = st.selectionsbox("Auswahl:", main)
+mychoice = st.selectbox("Auswahl:", main)
 
 
 choice = st.selectbox(
