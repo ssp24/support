@@ -30,10 +30,9 @@ st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Ve
 mycoice = ""
 
 mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
-st.write(mycoice)
+st.write('You selected:', mycoice)
 
-
-st.dataframe(data)
+#st.dataframe(data)
 
 if mycoice: 
           selection = data["Main"].loc[data["Main"] == mychoice]
