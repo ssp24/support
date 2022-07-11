@@ -29,7 +29,7 @@ st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Ve
 
 test = st.selectbox(
           "Folgende übergeordnete OAI-Sets stehen zur Verfügung:", 
-          ('test1', 'test2'))
+          (main))
 
 st.write('You selected:', test)
 
