@@ -11,7 +11,7 @@ import unicodedata
 
 data = pd.read_csv("oai_setnames.csv", encoding = "utf-8")
 data = data.drop(["Unnamed: 0.1", "Unnamed: 0"], axis=1)
-main = data.("Main").drop_duplicates()
+main = data["Main"].drop_duplicates()
 
           
 
