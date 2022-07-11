@@ -9,7 +9,7 @@ import plotly.express as px
 import unicodedata
 
 
-data = pd.read_csv("oai-setnames.csv", encoding = "utf-8")
+data = pd.read_csv("oai_setnames.csv", encoding = "utf-8")
 data = data.drop("Unnamed: 0.1", axis=1)
 
 dnbcolor = ['#FEFEFE', '#2499ff', '#f33930', '#b6c73f', '#ffd44d',
