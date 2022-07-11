@@ -29,8 +29,8 @@ st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Ve
 default_index = main[0]
 st.write(default_index)
 
-#mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
-#st.write('You selected:', mycoice)
+mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main, index=default_ix)
+st.write('You selected:', mycoice)
 
 #st.dataframe(data)
 
