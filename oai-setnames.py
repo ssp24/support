@@ -33,7 +33,7 @@ choice = st.selectbox(
              'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Musikalien',
              'Deutsche Nationalbibliografie (nur Datensaetze nach abgeschlossener Bearbeitung): Online-Publikationen',
              'Deutsche Nationalbibliografie: Monografien und Periodika des Verlagsbuchhandels - APPR',          
-            )
+            ))
             
 
 
