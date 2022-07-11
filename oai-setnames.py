@@ -27,7 +27,7 @@ st.header('Übersicht OAI-Sets der DNB')
 st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Verfügung stehenden Sets: ") 
 
 
-mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
+mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main.keys())
 st.write('You selected:', mycoice)
 
 #st.dataframe(data)
