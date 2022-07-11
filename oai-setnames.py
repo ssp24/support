@@ -26,14 +26,16 @@ st.header('Übersicht OAI-Sets der DNB')
 
 st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Verfügung stehenden Sets: ") 
 
+
+
+
 mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
 
 
-
+st.dataframe(data.loc[df["Main"] = mychoice])
 
 st.write("Stand der Daten: 22.03.2022")
 
-st.dataframe(data)
 
 
 #Jahre: 
