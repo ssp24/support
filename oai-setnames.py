@@ -32,7 +32,14 @@ st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Ve
 mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
 
 
-st.dataframe(data.loc[df["Main"] = mychoice])
+st.dataframe(data)
+
+selection = data.loc(data["Main"] = mychoice)
+if mycoice: 
+          st.dataframe(selection)
+else:
+          st.write("Es wurde noch keine Auswahl getätigt.")
+
 
 st.write("Stand der Daten: 22.03.2022")
 
