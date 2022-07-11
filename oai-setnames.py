@@ -10,7 +10,7 @@ import unicodedata
 
 
 data = pd.read_csv("oai_setnames.csv", encoding = "utf-8")
-data = data.drop("Unnamed: 0.1", "Unnamed: 0", axis=1)
+data = data.drop(["Unnamed: 0.1", "Unnamed: 0"], axis=1)
 
 dnbcolor = ['#FEFEFE', '#2499ff', '#f33930', '#b6c73f', '#ffd44d',
             '#3cb8f6', '#f9852e', '#e3d98f', '#000000', '#01be00']
