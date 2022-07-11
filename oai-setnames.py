@@ -36,7 +36,7 @@ st.write('You selected:', test)
 #st.dataframe(data)
 
 if test: 
-          selection = data["Main"].loc[data["Main"] == test]
+          selection = data.loc[data["Main"] == test]
           st.dataframe(selection)
 else:
           st.write("Es wurde noch keine Auswahl getätigt.")
