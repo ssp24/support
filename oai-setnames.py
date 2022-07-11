@@ -30,6 +30,7 @@ st.write("Hier finden Sie eine Übersicht der über die OAI-Schnittstelle zur Ve
 
 
 mychoice = st.selectbox("Folgende übergeordnete OAI-Sets stehen zur Verfügung:", main)
+st.write(mycoice)
 
 
 st.dataframe(data)
