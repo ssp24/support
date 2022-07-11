@@ -35,11 +35,11 @@ st.write('You selected:', test)
 
 #st.dataframe(data)
 
-#f mycoice: 
-          #selection = data["Main"].loc[data["Main"] == mychoice]
-          #st.dataframe(selection)
-#else:
-          #st.write("Es wurde noch keine Auswahl getätigt.")
+if test: 
+          selection = data["Main"].loc[data["Main"] == test]
+          st.dataframe(selection)
+else:
+          st.write("Es wurde noch keine Auswahl getätigt.")
 
 
 st.write("Stand der Daten: 22.03.2022")
